@@ -76,14 +76,19 @@
     .swiper-pagination {
         left: 0 !important;
         position: relative !important;
+        margin-bottom: 8rem !important;
     }
 
+
+}
+
+@media screen and (max-width: 1024px) {
     .swiper-button-prev,
     .swiper-button-next {
         display: none !important;
     }
-
 }
+
 @media screen and (max-width: 280px) {
     .swiper-pagination {
         margin-top: 12px;
