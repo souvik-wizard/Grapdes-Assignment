@@ -75,6 +75,7 @@
 @media screen and (max-width: 768px) {
     .swiper-pagination {
         left: 0 !important;
+        position: relative !important;
     }
 
     .swiper-button-prev,
@@ -82,4 +83,9 @@
         display: none !important;
     }
 
+}
+@media screen and (max-width: 280px) {
+    .swiper-pagination {
+        margin-top: 12px;
+    }
 }
