@@ -2,6 +2,7 @@ import React from 'react'
 import Image from "next/image";
 import Link from 'next/link';
 import { IoIosArrowDown } from 'react-icons/io';
+import { Button2 } from '../Button/Button2';
 
 const Navbar = () => {
     return (
@@ -57,8 +58,7 @@ const Navbar = () => {
                         className="lg:p-4 mx-2 py-2 px-0 block border-b-2 border-transparent hover:border-white lg:hover:border-white ">Contact
                         us</a>
 
-                    <a href="#"
-                        className="px-4 mx-2 rounded-full m-auto hover:bg-[#30A981] border-2 border-black hover:border-white lg:hover:border-white lg:hover:text-white">Login</a>
+                    <Button2 className="mx-2" text="Login" />
                 </div>
 
             </div>

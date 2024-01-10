@@ -23,7 +23,7 @@ export default function HomePage() {
                 }}
                 navigation={true}
                 modules={[Pagination, Navigation]}
-                className="mySwiper top-24 lg:top-0 h-full"
+                className="mySwiper top-24 lg:top-0 h-full mediascreen"
             >
 
                 <SwiperSlide>

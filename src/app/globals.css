@@ -67,6 +67,19 @@
     font-size: 25px !important;
 }
 
+.swiper-scrollbar {
+    height: 10px !important;
+    width: 42px !important;
+    left: 50% !important;
+    opacity: 1 !important;
+}
+
+.swiper-scrollbar-drag {
+    width: 30px !important;
+    height: 10px !important;
+    background-color: #32A981 !important;
+}
+
 .swiper-button-prev::after {
     content: ">";
     font-size: 25px !important;
@@ -79,10 +92,31 @@
         margin-bottom: 8rem !important;
     }
 
+    .swiper-scrollbar {
+        height: 10px !important;
+        width: 36% !important;
+        left: 33.33% !important;
+    }
+
 
 }
 
+@media (min-width: 810px) and (max-width: 920px) {
+    .mediascreen{
+        height:50vh !important;
+    }
+    
+    .swiper-pagination {
+        left: 0 !important;
+        top: 80% !important;
+    
+    }
+
+}
+    
+
 @media screen and (max-width: 1024px) {
+
     .swiper-button-prev,
     .swiper-button-next {
         display: none !important;
